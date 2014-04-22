@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" [
+<!ENTITY HeavyData "Solution.h5">
+]>
+
+<Xdmf Version="2.0">
+  <Domain>
+    <Grid GridType="Uniform">
+      <Topology TopologyType="3DCoRectMesh" Dimensions="256 128 128"/>
+      <Geometry GeometryType="ORIGIN_DXDYDZ">
+        <DataItem Dimensions="3" Format="XML">
+		0.0 0.0 0.0
+	</DataItem>
+        <DataItem Dimensions="3" Format="XML">
+		1.0 1.0 1.0
+	</DataItem>
+      </Geometry>
+      <Attribute Center="Node" Name="Heat Release">
+	<DataItem DataType="Float" Precision="4" Dimensions="256 128 128" Format="HDF">
+	  &HeavyData;:/Flow properties/Heat Release
+	</DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>
+
