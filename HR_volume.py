@@ -9,23 +9,23 @@ template_xmf.Grids = ['Grid_2']
 template_xmf.PointArrays = ['Heat Release']
 
 RenderView1 = GetRenderView()
-RenderView1.CenterOfRotation = [127.5, 127.5, 255.5]
+RenderView1.CenterOfRotation = [63.5, 63.5, 127.5]
 
 DataRepresentation1 = Show()
 DataRepresentation1.EdgeColor = [0.0, 0.0, 0.5000076295109483]
-DataRepresentation1.Slice = 255
+DataRepresentation1.Slice = 127
 DataRepresentation1.SelectionPointFieldDataArrayName = 'Heat Release'
 DataRepresentation1.ScalarOpacityUnitDistance = 1.945432819429857
 DataRepresentation1.Representation = 'Outline'
-DataRepresentation1.ScaleFactor = 51.1
+DataRepresentation1.ScaleFactor = 25.5
 
-RenderView1.CameraViewUp = [0.2279687397853611, 0.9641805290420534, 0.13559557919364615]
-RenderView1.CameraPosition = [-863.6940733467637, 447.9434085215958, -356.6440821774227]
+RenderView1.CameraViewUp = [0.22326788026235073, 0.94439987354729937, 0.24137177234921564]
+RenderView1.CameraPosition = [-208.14675015469706, 191.63392196347752, -134.43583552652603]
 RenderView1.OrientationAxesVisibility = 0
-RenderView1.CameraClippingRange = [663.1359268351831, 1897.3525364896102]
-RenderView1.CameraFocalPoint = [127.49999999999999, 127.5, 255.5]
+RenderView1.CameraClippingRange = [101.05088554003243, 773.9135346932386]
+RenderView1.CameraFocalPoint = [63.658357589029634, 60.816454641831086, 125.98670160004195]
 RenderView1.CenterAxesVisibility = 0
-RenderView1.CameraParallelScale = 312.71832373559437
+RenderView1.CameraParallelScale = 206.11720679403237
 
 DataRepresentation1.Representation = 'Volume'
 DataRepresentation1.ColorArrayName = ('POINT_DATA', 'Heat Release')
